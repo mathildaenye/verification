@@ -1,0 +1,117 @@
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+/* Main container */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Registration box */
+.registration-box {
+    width: 380px;
+    padding: 40px;
+    background: #181818;
+
+    border: 2px solid #d8a7ff;
+    border-radius: 20px;
+
+    box-shadow: 0 0 30px rgba(255, 105, 180, 0.25);
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 5px;
+    text-align: center;
+    color: #ff69b4;
+}
+
+/* Subtitle */
+.subtitle {
+    text-align: center;
+    color: #d8a7ff;
+    margin-bottom: 30px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 8px;
+
+    color: #ff9ccc;
+    font-weight: bold;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 13px;
+
+    box-sizing: border-box;
+
+    background: #0d0d0d;
+    color: white;
+
+    border: 1px solid #d8a7ff;
+    border-radius: 8px;
+
+    outline: none;
+    font-size: 15px;
+}
+
+/* Input focus */
+input:focus {
+    border-color: #ff69b4;
+    box-shadow: 0 0 8px rgba(255, 105, 180, 0.4);
+}
+
+/* Message */
+#message {
+    min-height: 20px;
+    margin-top: 20px;
+
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 14px;
+
+    margin-top: 10px;
+
+    background: #ff69b4;
+    color: black;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+    background: #d8a7ff;
+    transform: translateY(-2px);
+}
